@@ -1036,6 +1036,7 @@ namespace MudBlazor
 
             if (disposing == true)
             {
+                _isOpen = false;
                 _keyInterceptor?.Dispose();
             }
         }
